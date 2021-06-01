@@ -5,7 +5,7 @@ import torch
 import torch.utils.model_zoo as model_zoo
 
 from pretrainedmodels.models import senet
-from torchsummary import summary
+#from torchsummary import summary
 from .model import RetinaNet
 
 

@@ -7,7 +7,7 @@ import torch.utils.model_zoo as model_zoo
 from .utils import BasicBlock, Bottleneck, BBoxTransform, ClipBoxes
 from .anchors import Anchors
 from . import losses
-from .lib.nms.pth_nms import pth_nms
+from torchvision.ops import nms
 from .model import RetinaNet, RetinaNetEncoder
 
 model_urls = {
